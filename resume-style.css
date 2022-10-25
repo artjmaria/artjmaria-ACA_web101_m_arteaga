@@ -1,3 +1,20 @@
-body {
-    background-color: blueviolet;
+.parent {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    grid-gap: 3%;
+  }
+
+img {
+    width: 100%;
+    
+}
+h1 {
+    font-size: 500%;
+}
+
+p.child {
+   grid-row: -3/-2;
+   grid-column: 2/3;
+   
 }
