@@ -1,62 +1,104 @@
+
 body {
-    width: 80%;
+    width: 90%;
     margin: 5% auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    border: solid black 10px;
+    /* background-color: gray; */
+    
+
 }
 
-/* Styles applied to header section */
 
-.parent {
+.container {
     display: grid;
-    grid-template-columns: 40% auto;
-    grid-column-gap: 2%;
-}
-
-img.child {
-    width: 100%;
-    border-radius: 55%;
-
-}
-
-h1.child {
-    font-size: 400%;
-    grid-column: 2/3;
-    grid-row: -2/-3;
-    border-bottom: solid;
-
-
-}
-
-p.child {
-    grid-row: -1/-2;
-    grid-column: -2/-1;
-
-
-}
-
-/* Aside styling */
-
-.contact {
-    display: grid;
-    grid-template-columns: 40%;
+    height: 100%;
+    grid-template-columns: 30% auto;
     grid-template-rows: 25% 25% 25% 25%;
-    grid-row-gap: 50%;
-
-
+    row-gap: 2%;
+    justify-items: center;
+    grid-template-areas: 
+    "main myname"
+    "contact expertise"
+    "contact history"
+    "contact education";
 
 }
 
+main {
+    background: gray;
+    grid-area: main;
+    
+}
+#myname {
+    background: gray;
+    grid-area: myname;
+    font-size: 300%;
+    
+    
+}
+#contact {
+    background: gray;
+    grid-area: contact;
+    
+}
+#expertise {
+    background: gray;
+    grid-area: expertise;
+    justify-self: start;
+}
+#history {
+    background: gray;
+    grid-area: history;
+    justify-self: start;
+}
+#education {
+    background: gray;
+    grid-area: education;
+    justify-self: start;
+}
+
+img {
+    height: 100%;
+    border-radius: 50%;
+    border: solid 3px #FFFFFF;
+    
+    
+    
+}
+p {
+    font-size: 30%;
+    
+    
+    
+}
+h1 {
+    font-size: 90%;
+    border-bottom: solid black 3px;
+    box-shadow: 0 10px 10px -10px #D1D1D1
+    
+}
+h2 {
+    font-size: 50%;
+    
+
+}
 h3 {
-    border-bottom: solid;
-    grid-row: -5/-4;
-    place-self: center;
-    width: 80%;
-
-
-
+    box-shadow: 0 10px 10px -10px #D1D1D1
 }
-
-p.contacts {
+.flexparent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.flexchild {
+    font-size: 90%;
+    border-bottom: solid black 3px;
     align-self: center;
-    place-self: center;
+    
+    
+
 }
+
