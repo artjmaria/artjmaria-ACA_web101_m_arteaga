@@ -1,5 +1,5 @@
 body {
-    width: 95%;
+    width: 90%;
     margin: 5% auto;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
@@ -73,6 +73,7 @@ main {
 
 img {
     height: 100%;
+    width: 90%;
     border-radius: 50%;
     /* border: solid 3px #FFFFFF; */
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
