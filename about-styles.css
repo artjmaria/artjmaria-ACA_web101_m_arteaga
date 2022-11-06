@@ -11,7 +11,7 @@ html {
 }
 
 img {
-    width: 99%;
+    width: 95%;
     height: 55%;
     border: double #ff3d77 10px;
 }
@@ -34,6 +34,7 @@ header {
 }
 
 
+
 /* Header Styling */
 .flexparent {
     display: inline-flex;
@@ -53,7 +54,7 @@ header.flexchild {
     display: grid;
     height: 100%;
     color: #EFF2EE;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 30% 70%;
     grid-template-areas:
@@ -187,6 +188,10 @@ p.title2 {
     border-top: solid #F46830 30px;
     margin: 17%;
     padding-top: 3%;
+    text-align: center;
+    color: #fffc3d;
+    text-shadow: 2px 2px #6a52ff;
+
 
 }
 
@@ -310,7 +315,7 @@ p.title3 {
         background: #1B1B1B;
         font-size: 220%;
         overflow-wrap: break-word;
-        text-align: center;
+        text-align: initial;
         color: #EFF2EE;
 
     }
@@ -324,7 +329,7 @@ p.title3 {
 
     p.title1 {
 
-        border-top: ridge #34A8DD 20px;
+        border-top: ridge #7d0dd3 20px;
         margin: 17%;
 
     }
@@ -336,7 +341,7 @@ p.title3 {
     }
 
     p.title2 {
-        border-top: ridge #F46830 20px;
+        border-top: ridge #7d0dd3 20px;
         margin: 17%;
 
     }
@@ -348,7 +353,7 @@ p.title3 {
     }
 
     p.title3 {
-        border-top: ridge #2BCEC0 20px;
+        border-top: ridge #7d0dd3 20px;
         margin: 17%;
 
     }
