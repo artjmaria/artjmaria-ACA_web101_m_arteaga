@@ -10,6 +10,30 @@ html {
 
 }
 
+img {
+    width: 99%;
+    height: 55%;
+    border: double #ff3d77 10px;
+}
+
+header {
+    font-size: 50px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
+
+
 /* Header Styling */
 .flexparent {
     display: inline-flex;
@@ -31,7 +55,7 @@ header.flexchild {
     color: #EFF2EE;
     font-family: 'Times New Roman', Times, serif;
     grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 30% 70%;
     grid-template-areas:
         "main main main"
         "titleone titletwo titlethree";
@@ -102,6 +126,7 @@ main.flexparent {
   }
 
   /* Color Changing Gradient Background Styling End */
+
 
   /* Emoji Movement */
 
@@ -264,7 +289,7 @@ p.title3 {
         color: #EFF2EE;
         font-family: 'Times New Roman', Times, serif;
         grid-template-columns: 33.33% 33.33% 33.33%;
-        grid-template-rows: 50% 50%;
+        grid-template-rows: 30% 70%;
         grid-template-areas:
             "main main main"
             "titleone titletwo titlethree";
@@ -299,7 +324,7 @@ p.title3 {
 
     p.title1 {
 
-        border-top: solid #34A8DD 30px;
+        border-top: ridge #34A8DD 20px;
         margin: 17%;
 
     }
@@ -311,7 +336,7 @@ p.title3 {
     }
 
     p.title2 {
-        border-top: solid #F46830 30px;
+        border-top: ridge #F46830 20px;
         margin: 17%;
 
     }
@@ -323,7 +348,7 @@ p.title3 {
     }
 
     p.title3 {
-        border-top: solid #2BCEC0 30px;
+        border-top: ridge #2BCEC0 20px;
         margin: 17%;
 
     }
