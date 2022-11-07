@@ -6,8 +6,12 @@
 }
 
 html {
-    height: 100%;
+    height: 110%;
 
+}
+
+body {
+    background-color: black;
 }
 
 img {
@@ -18,19 +22,19 @@ img {
 
 header {
     font-size: 50px;
-  color: #fff;
-  text-align: center;
-  animation: glow 1s ease-in-out infinite alternate;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
 }
 
 @-webkit-keyframes glow {
-  from {
-    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
-  }
-  
-  to {
-    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
-  }
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
 }
 
 
@@ -54,7 +58,7 @@ header.flexchild {
     display: grid;
     height: 100%;
     color: #EFF2EE;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     grid-template-columns: 33.33% 33.33% 33.33%;
     grid-template-rows: 30% 70%;
     grid-template-areas:
@@ -73,79 +77,93 @@ main {
 main.flexparent {
     color: #fff !important;
     background: -webkit-linear-gradient(135deg,
-        #ffa63d,
-        #ff3d77,
-        #6a52ff,
-        #3cf0c5);
+            #ffa63d,
+            #ff3d77,
+            #6a52ff,
+            #3cf0c5);
     background: -o-linear-gradient(135deg, #ffa63d, #ff3d77, #6a52ff, #3cf0c5);
     background: linear-gradient(-45deg, #ffa63d, #ff3d77, #6a52ff, #3cf0c5);
     background-size: 600%;
     -webkit-animation: bg-effect 6s linear infinite;
     animation: bg-effect 6s linear infinite;
-  }
+}
 
-  @-webkit-keyframes bg-effect {
+@-webkit-keyframes bg-effect {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
 
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
 
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  }
+}
 
-  @-moz-keyframes bg-effect {
+@-moz-keyframes bg-effect {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
 
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
 
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  }
+}
 
-  @keyframes bg-effect {
+@keyframes bg-effect {
     0% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
 
     50% {
-      background-position: 100% 50%;
+        background-position: 100% 50%;
     }
 
     100% {
-      background-position: 0% 50%;
+        background-position: 0% 50%;
     }
-  }
+}
 
-  /* Color Changing Gradient Background Styling End */
+/* Color Changing Gradient Background Styling End */
 
 
-  /* Emoji Movement */
+/* Emoji Movement */
 
-  .emoji {
+.emoji {
     font-size: 60px;
     display: inline-block;
     animation: rotate 2s ease-in-out infinite;
-  }
-  
-  /* The animation */
-  @keyframes rotate {
-      0% { transform: rotate(0deg); }
-      25% { transform: rotate(10deg); }
-      50% { transform: rotate(0deg); }
-    75% { transform: rotate(10deg); }
-    100% { transform: rotate(0deg);}
-  }
-  
+}
+
+/* The animation */
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(10deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 
 
 .titles {
@@ -153,7 +171,7 @@ main.flexparent {
     flex-flow: column wrap;
     align-items: stretch;
     align-content: center;
-    background: #1B1B1B;
+    background: black;
     font-size: 227%;
     overflow-wrap: break-word;
     text-align: center;
@@ -210,7 +228,14 @@ p.title3 {
 
 
 
+
+
+
+
 /* Responsive Design */
+
+
+/* Mobile Design */
 
 @media (max-width: 576px) {
 
@@ -219,7 +244,7 @@ p.title3 {
     .container {
 
         grid-template-columns: 100%;
-        grid-template-rows: 25% 25% 25% 25%;
+        grid-template-rows: 15% 28.33% 28.33% 28.33%;
         grid-template-areas:
             "main"
             "titleone"
@@ -228,26 +253,21 @@ p.title3 {
     }
 
     html {
-        height: 225%;
+        height: 350%;
 
     }
 
-    main {
-        background: #34A8DD;
-        padding: 10%;
-
-    }
 
     .titles {
-        font-size: 295%;
+        font-size: 240%;
         display: flex;
         flex-flow: column wrap;
         align-items: stretch;
         align-content: center;
         overflow-wrap: break-word;
         text-align: center;
-        background: #F7F5F6;
-        color: #181717;
+        background-color: #6a52ff;
+        color: white;
 
     }
 
@@ -256,11 +276,73 @@ p.title3 {
         flex-wrap: wrap;
     }
 
+    p {
+        Margin: 0;
+        Padding: 0;
+        Border: 0;
+    }
+
+    section {
+        Margin: 0;
+        Padding: 0;
+        Border: 0;
+    }
+    }
+
+
+
+
+/* Tablet Design */
+
+@media (min-width: 577px) {
+
+    html {
+        height: 180%;
+
+    }
+
+
+    .titles {
+        font-size: 200%;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: stretch;
+        align-content: center;
+        overflow-wrap: break-word;
+        text-align: center;
+        background-color: #201183;
+        color: white;
+
+    }
+
+
+
+    .spans {
+        font-size: 50%;
+        flex-wrap: wrap;
+    }
+
+    p {
+        Margin: 0;
+        Padding: 0;
+        Border: 0;
+    }
+
+    section {
+        Margin: 0;
+        Padding: 0;
+        Border: 0;
+    }
+
+    img {
+        width: 110%;
+        height: 55%;
+        border: dotted #ff3d77 10px;
+    }
 }
 
 
-
-@media (min-width: 577px) {
+@media (min-width: 1000px) {
 
     * {
         Margin: 0;
@@ -272,6 +354,10 @@ p.title3 {
     html {
         height: 100%;
 
+    }
+
+    body {
+        background-color: black;
     }
 
     /* Header Styling */
