@@ -297,7 +297,7 @@ p.title3 {
 @media (min-width: 577px) {
 
     html {
-        height: 180%;
+        height: 220%;
 
     }
 
@@ -335,9 +335,9 @@ p.title3 {
     }
 
     img {
-        width: 110%;
-        height: 55%;
-        border: dotted #ff3d77 10px;
+        width: 115%;
+        height: 52%;
+        border: dotted #ff3d77 5px;
     }
 }
 
@@ -352,13 +352,15 @@ p.title3 {
     }
 
     html {
-        height: 100%;
+        height: 150%;
 
     }
 
     body {
         background-color: black;
+
     }
+        
 
     /* Header Styling */
     .flexparent {
@@ -398,10 +400,11 @@ p.title3 {
         flex-flow: column wrap;
         align-items: stretch;
         align-content: center;
-        background: #1B1B1B;
+        /* background: #1B1B1B; */
+        background-color:black;
         font-size: 220%;
         overflow-wrap: break-word;
-        text-align: initial;
+        text-align: center;
         color: #EFF2EE;
 
     }
@@ -442,5 +445,14 @@ p.title3 {
         border-top: ridge #7d0dd3 20px;
         margin: 17%;
 
+    }
+
+    img {
+        width: 105%;
+        height: 85%;
+        border: dotted #ff3d77 5px;
+       
+  
+        
     }
 }
