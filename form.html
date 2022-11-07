@@ -17,25 +17,25 @@
     </main>
 
     <form action="results.html" method="GET" enctype="multipart/form-data">
-        <div id="name">
-            <label for="name">Name:</label>
+        <div>
+            <label for="name">-Name:</label>
             <input type="text" name="name" id="name">
         </div>
-        <div id="email">
-            <label for="email">Email:</label>
+        <div>
+            <label for="email">-Email:</label>
             <input type="email" name="email" id="email">
         </div>
-        <div id="age">
-            <label for="age">Age:</label>
+        <div>
+            <label for="age">-Age:</label>
             <input type="number" name="age" id="age" min="1" max="200" step="5">
         </div>
-        <div id="date">
-            <label for="date">Enter Birthdate for Birthday Wish!</label>
+        <div>
+            <label for="date">-Enter Birth date for Birthday Wish!</label>
             <input type="date" name="date" id="date" min="2019-06-10">
         </div>
 
-        <div id="hearAbout">
-            How Did you Hear About Me?
+        <div>
+            -How Did you Hear About Me?
             <div>
                 <label for="classmate">Classmate</label>
                 <input type="checkbox" name="classmate" id="classmate">
@@ -54,35 +54,36 @@
             </div>
         </div>
 
-        <div id="contacted">
-            Do you want to be contacted back?
+        <div>
+            -Do you want to be contacted back?
             <div>
                 <label for="yes">Yes</label>
-                <input type="radio" name="gender" id="yes" value="yes">
+                <input type="radio" name="contactme" id="yes" value="yes">
             </div>
 
             <div>
                 <label for="no">No</label>
-                <input type="radio" name="gender" id="no" value="no">
+                <input type="radio" name="contactme" id="no" value="no">
 
             </div>
 
         </div>
 
 
-        <div id="comments">
-            <label for="comments">Comments:</label>
+        <div>
+            <label for="comments">-Comments:</label>
             <textarea id="comments" name="comments" maxlength="500" minlength="20" required>Comments</textarea>
         </div>
-        <input type="hidden" name="hidden" value="hi">
+        <!-- <input type="hidden" name="hidden" value="hi"> -->
 
-        <div id="phone">
-            <label for="phone">Phone:</label>
+        <div>
+            <label for="phone">-Phone:</label>
             <input type="tel" name="phone" id="phone">
         </div>
 
-        <button id="button" type="reset">Reset</button>
-        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+
+        <button type="submit">Submit!</button>
     </form>
 
 
