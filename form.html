@@ -11,26 +11,30 @@
 </head>
 
 <body>
-    <h1>CONTACT ME BY FILLING OUT THE FORM</h1>
+
+    <main class="flexparent">
+        <header class="flexchild">CONTACT ME BY FILLING OUT THE FORM</header>
+    </main>
+
     <form action="results.html" method="GET" enctype="multipart/form-data">
-        <div>
+        <div id="name">
             <label for="name">Name:</label>
             <input type="text" name="name" id="name">
         </div>
-        <div>
+        <div id="email">
             <label for="email">Email:</label>
             <input type="email" name="email" id="email">
         </div>
-        <div>
+        <div id="age">
             <label for="age">Age:</label>
             <input type="number" name="age" id="age" min="1" max="200" step="5">
         </div>
-        <div>
+        <div id="date">
             <label for="date">Enter Birthdate for Birthday Wish!</label>
             <input type="date" name="date" id="date" min="2019-06-10">
         </div>
 
-        <div>
+        <div id="hearAbout">
             How Did you Hear About Me?
             <div>
                 <label for="classmate">Classmate</label>
@@ -50,7 +54,7 @@
             </div>
         </div>
 
-        <div>
+        <div id="contacted">
             Do you want to be contacted back?
             <div>
                 <label for="yes">Yes</label>
@@ -66,20 +70,21 @@
         </div>
 
 
-        <div>
+        <div id="comments">
             <label for="comments">Comments:</label>
             <textarea id="comments" name="comments" maxlength="500" minlength="20" required>Comments</textarea>
         </div>
         <input type="hidden" name="hidden" value="hi">
 
-        <div>
+        <div id="phone">
             <label for="phone">Phone:</label>
             <input type="tel" name="phone" id="phone">
         </div>
 
-        <button type="reset">Reset</button>
+        <button id="button" type="reset">Reset</button>
         <button type="submit">Submit</button>
     </form>
+
 
 
 </body>

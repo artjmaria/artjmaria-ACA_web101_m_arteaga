@@ -35,7 +35,7 @@ main {
     grid-area: myname;
     font-size: 300%;
     box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
-    
+
 
 }
 
@@ -131,6 +131,7 @@ a {
     align-self: center;
     color: #D5D3FF;
 }
+
 li {
     font-size: 80%;
 }
