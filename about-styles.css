@@ -208,7 +208,7 @@ p.title2 {
     padding-top: 3%;
     text-align: center;
     color: #fffc3d;
-    text-shadow: 2px 2px #6a52ff;
+    text-shadow: 2px 2px #3b26c3;
 
 
 }
@@ -287,7 +287,7 @@ p.title3 {
         Padding: 0;
         Border: 0;
     }
-    }
+}
 
 
 
@@ -341,6 +341,7 @@ p.title3 {
     }
 }
 
+/* Desktop Styling */
 
 @media (min-width: 1000px) {
 
@@ -360,7 +361,7 @@ p.title3 {
         background-color: black;
 
     }
-        
+
 
     /* Header Styling */
     .flexparent {
@@ -401,8 +402,8 @@ p.title3 {
         align-items: stretch;
         align-content: center;
         /* background: #1B1B1B; */
-        background-color:black;
-        font-size: 220%;
+        background-color: black;
+        font-size: 235%;
         overflow-wrap: break-word;
         text-align: center;
         color: #EFF2EE;
@@ -451,8 +452,8 @@ p.title3 {
         width: 105%;
         height: 85%;
         border: dotted #ff3d77 5px;
-       
-  
-        
+
+
+
     }
 }
